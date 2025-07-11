@@ -68,7 +68,7 @@ const dashboard = {
             children: [
                 {
                     id: 'chatflows',
-                    title: 'Chatflows',
+                    title: 'CogniChat',
                     type: 'item',
                     url: '/chatflows',
                     icon: icons.IconHierarchy,
@@ -77,7 +77,7 @@ const dashboard = {
                 },
                 {
                     id: 'agentflows',
-                    title: 'Agentflows',
+                    title: 'CogniAgent',
                     type: 'item',
                     url: '/agentflows',
                     icon: icons.IconUsersGroup,
@@ -95,7 +95,7 @@ const dashboard = {
                 },
                 {
                     id: 'assistants',
-                    title: 'Assistants',
+                    title: 'Cogni Assistants',
                     type: 'item',
                     url: '/assistants',
                     icon: icons.IconRobot,
@@ -113,7 +113,7 @@ const dashboard = {
                 },
                 {
                     id: 'tools',
-                    title: 'Tools',
+                    title: 'Cogni Tools',
                     type: 'item',
                     url: '/tools',
                     icon: icons.IconTool,

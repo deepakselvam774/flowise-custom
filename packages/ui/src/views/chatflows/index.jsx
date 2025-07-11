@@ -116,8 +116,8 @@ const Chatflows = () => {
                         onSearchChange={onSearchChange}
                         search={true}
                         searchPlaceholder='Search Name or Category'
-                        title='Chatflows'
-                        description='Build single-agent systems, chatbots and simple LLM flows'
+                        title='CogniXcelerate'
+                        description='Cogni single-agent systems, chatbots and simple LLM flows'
                     >
                         <ToggleButtonGroup
                             sx={{ borderRadius: 2, maxHeight: 40 }}
@@ -158,7 +158,7 @@ const Chatflows = () => {
                             startIcon={<IconPlus />}
                             sx={{ borderRadius: 2, height: 40 }}
                         >
-                            Add New
+                            Cogni Build
                         </StyledPermissionButton>
                     </ViewHeader>
                     {!view || view === 'card' ? (
